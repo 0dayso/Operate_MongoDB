@@ -48,4 +48,4 @@ return true
 use second
 db.person.insert({"hobby":"basketball","name":"liudongqing"})
 db.person.update({"hobby":"basketball"},{$set:{"name":"ldq"}})  #只更新一条
-db.person.update({"hobby":"basketball"},{$set:{"name":"ldq"},{muti:true}})  #更新多条数据
+db.person.update({"hobby":"basketball"},{$set:{"name":"ldq"},{muti:true}})  #更新多条
